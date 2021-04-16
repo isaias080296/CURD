@@ -12,8 +12,6 @@ var nameSchema = new mongoose.Schema({
     CallID: String,
     SD: String,
     State: String,
-
-
 });
 var User = mongoose.model("User", nameSchema);
 
